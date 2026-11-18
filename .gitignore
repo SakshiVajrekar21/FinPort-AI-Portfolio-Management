@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+dataset/raw/
+dataset/processed/nifty50_features.csv
+
+# Local settings and secrets
+.vscode/
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
